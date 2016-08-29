@@ -1,0 +1,24 @@
+{
+    "name": "riconect/mailerbundle",
+    "description": "Mailer helper for Swiftmailer - spooling to database.",
+    "keywords": ["swiftmailer", "doctrine", "mongodb", "spool"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dariusz Paliwoda",
+            "email": "mymacroom@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/swiftmailer-bundle": "~2.1",
+        "doctrine/mongodb-odm-bundle": "~3.0"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Riconect\\MailerBundle": ""
+         }
+    },
+    "target-dir": "Riconect/MailerBundle"
+}
